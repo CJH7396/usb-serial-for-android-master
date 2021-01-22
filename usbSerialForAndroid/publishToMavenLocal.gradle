@@ -4,7 +4,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId 'com.github.CJH7396'
-            artifactId 'usb-serial-for-android'
+            artifactId 'usb-serial-for-android-master'
             version '1.0'
             afterEvaluate {
                 artifact androidSourcesJar
