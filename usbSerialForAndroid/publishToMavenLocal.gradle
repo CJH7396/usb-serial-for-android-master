@@ -3,9 +3,9 @@ apply plugin: 'maven-publish'
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'com.github.mik3y'
+            groupId 'com.github.CJH7396'
             artifactId 'usb-serial-for-android'
-            version '3.0.0beta'
+            version '1.0'
             afterEvaluate {
                 artifact androidSourcesJar
                 artifact bundleReleaseAar
