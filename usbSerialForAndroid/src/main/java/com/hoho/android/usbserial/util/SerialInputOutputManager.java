@@ -178,7 +178,7 @@ public class SerialInputOutputManager implements Runnable {
         }
 
         Log.i(TAG, "Running ...");
-        /*try {
+        try {
             while (true) {
                 if (getState() != State.RUNNING) {
                     Log.i(TAG, "Stopping mState=" + getState());
@@ -197,7 +197,7 @@ public class SerialInputOutputManager implements Runnable {
                 mState = State.STOPPED;
                 Log.i(TAG, "Stopped");
             }
-        }*/
+        }
     }
 
     private void step() throws IOException {
